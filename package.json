@@ -1,0 +1,20 @@
+{
+  "name": "HeimaDev",
+  "version": "1.0.0",
+  "description": "heima.dev的网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy-gh": "GH=1 npm docs:build && bash scripts/deploy-gh.sh"
+  },
+  "author": "乐小迪",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.32"
+  },
+  "engines": {
+    "node": ">11.5.0"
+  }
+}
