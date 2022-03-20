@@ -27,12 +27,6 @@ module.exports = {
                     '/soft/客户端.md',
                 ]
             },
-            {
-                text: '量化策略研究群',
-                children: [
-                    '/chat/chat.md',
-                ]
-            },
         ]
     }
 }

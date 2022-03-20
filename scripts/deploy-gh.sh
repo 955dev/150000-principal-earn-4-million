@@ -10,23 +10,18 @@ npm run docs:build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.heima.dev' > CNAME
+# echo 'www.xxx.dev' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-# git@github.com:HeimaDev/HeimaDev.git
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-# git push -f git@github.com:HeimaDev/HeimaDev.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# https://github.com/HeimaDev/HeimaDev.git
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-git push -f git@github.com:HeimaDev/heima.git master:gh-pages
-git push -f git@github.com:HeimaDev/heima.git master
-
+git push -f git@github.com:955dev/150000-principal-earn-4-million.git master:gh-pages
 cd -
