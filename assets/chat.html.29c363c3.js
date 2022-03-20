@@ -1,0 +1,1 @@
+const t={key:"v-0fcad9c3",path:"/chat/chat.html",title:"\u91CF\u5316\u7B56\u7565\u7814\u7A76\u7FA4",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1647694076e3,contributors:[{name:"Tiger",email:"AtlantisSpeed@gmail.com",commits:1}]},filePathRelative:"chat/chat.md"};export{t as data};
