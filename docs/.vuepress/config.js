@@ -2,7 +2,7 @@ module.exports = {
     lang: 'zh-CN',
     title: '小资金也要有梦想！',
     description: '2019年中旬，15万本金入市，本站能看到的记录做到400多万。',
-    base: '/heima/',
+    base: '/150000-principal-earn-4-million/',
     themeConfig: {
         navbar: [
             {
